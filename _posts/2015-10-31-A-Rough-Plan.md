@@ -4,7 +4,7 @@ title: A rough plan
 date: 2015-10-31 16:00:10 +00:00
 ---
 
-Here's a rough plan for the creation of my continuous deployment and development process:
+Here's a rough plan for the creation of my continuous deployment and development process using the MixRadio open-source tools (_mr-this_ and _mr-that_ refer to services, written with clojure and lein that can be deployed to support various parts of the process. See the [MixRadio github](https://github.com/mixradio) for more details):
 
  - create a helloworld service using the mr-clojure template (mr-clojure is a lein template for creating a ready to deploy and run clojure web-service).
  - create a new AWS account into which I'll setup several useful tools and services and then deploy and use my service. I'll have to be careful to stick within the rules of the _free tier_.
