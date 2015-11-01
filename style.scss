@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 14px/1.4 $helvetica;
   color: $darkGray;
 }
 
@@ -281,6 +281,18 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+.language-clojure {
+  font-size: 12px;
+}
+
+.language-text {
+  font-size: 12px;
+}
+
+code {
+  font-size: 12px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
