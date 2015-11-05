@@ -100,7 +100,7 @@ Set the following:
 Save the job and then run it. Click on the running job (the red line) and you'll see the build in progress: the code will be downloaded from the git repository, the dependencies will be downloaded, the service will be run up and tests will run. Once all sets
 of tests have completed successfully you'll see a SUCCESS message. The build will be marked as succeeded (with a blue circle).
 
-To demonstrate continuous testing in action, make a small change to the code and then commit it to git. After a few minutes You'llwill see the helloworld-ci job run successfully.
+To demonstrate continuous build and testing in action, make a small change to the code (perhaps change the response from the _/hello_ resource) so that the acceptance tests will fail and then commit it to git. After a few minutes You'll see the helloworld-ci job run and fail. Now, fix the broken service so that acceptance tests pass again and commit the change to git. After a few minutes the continuous integration job will run and pass.
  
 OK, that's enough for now; I'll do the building of an RPM in the next post.
 
